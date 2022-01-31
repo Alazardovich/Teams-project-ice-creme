@@ -1,0 +1,15 @@
+.gallery {
+  padding-top: 77px;
+  padding-bottom: 80px;
+  background: linear-gradient(to bottom, $light-bg-color 120px, $main-color 120px);
+
+  @media screen and (min-width: 768px) {
+    padding-top: 140px;
+    padding-bottom: 98px;
+    background: linear-gradient(to bottom, $light-bg-color 245px, $main-color 245px);
+  }
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 123px;
+    background: linear-gradient(to bottom, $light-bg-color 314px, $main-color 314px);
+  }
+}
